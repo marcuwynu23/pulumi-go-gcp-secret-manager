@@ -1,0 +1,10 @@
+name: pulumi-go-gcp-secret-manager
+description: Pulumi GCP Secret Manager with secrets and versions
+runtime: go
+config:
+  gcp:region:
+    description: The GCP region
+    value: us-central1
+  secretmanager:secretId:
+    description: The ID of the secret to create
+    value: my-api-key
